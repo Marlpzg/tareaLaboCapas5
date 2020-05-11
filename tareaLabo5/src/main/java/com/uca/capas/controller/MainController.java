@@ -45,7 +45,6 @@ public class MainController {
 		ModelAndView mav = new ModelAndView();
 		
 		Estudiante estudiante = new Estudiante();
-
 		
 		mav.addObject("estudiante", estudiante);
 		mav.setViewName("index");
